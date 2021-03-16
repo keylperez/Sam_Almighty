@@ -1,0 +1,76 @@
+body{
+    header{
+        grid-column: 1 / -1;
+        ul{
+            position: fixed;
+            width: 100vw;
+            grid-template-columns: 10vw repeat(5, 18%) !important;
+            grid-column: 1 / -1;
+            height: 50px;
+        }
+    }
+}
+
+.footer{
+    height: 15vh;
+    grid-column: 1 / -1;
+    grid-template-rows: repeat(2, 50%);
+    padding: 20px;
+}
+
+.body{
+    &Home{
+        background-image: url("/src/img/gaming_sam.jpg");
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    &Gaming{
+        background-image: url("/src/img/gaming.gif");
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    &Cry{
+        background-image: url("/src/img/crying.gif");
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    &Angry{
+        background-image: url("/src/img/angry.gif");
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    &Bully{
+        background-image: url("/src/img/bully.gif");
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    &Vatandoost{
+        background-color: $third-color;
+    }
+}
+
+.header{
+    &Home{
+        height: 100vh;
+    }
+    &Gaming{
+        height: 170vh;
+        color: $secondary-color-dark;
+    }
+    &Cry{
+        height: 195vh;
+    }
+    &Angry{
+        height: 96vh;
+    }
+    &Bully{
+        height: 203vh;
+    }
+    &Vatandoost{
+        height: 100vh;
+        color: $primary-color-light;
+        video{
+            margin-top: 50px;
+        }
+    }
+}

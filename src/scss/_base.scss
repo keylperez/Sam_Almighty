@@ -1,0 +1,49 @@
+$primary-color-dark: #1d2f15;
+$primary-color: #598D3E;
+$primary-color-light: #b2d5a0;
+
+$secondary-color-dark: #001759;
+$secondary-color: #0446FF;
+$secondary-color-light: #aec3ff;
+
+$third-color-dark: #442518;
+$third-color: #A85B3C;
+$third-color-light: #ddb1a0;
+
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+font-family: 'DotGothic16', sans-serif;
+  font-size: 1.5rem;
+  line-height: 1.6;
+  font-weight: 300;
+  background-color: violet;
+}
+
+footer{
+    position: relative;
+    bottom: 0;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+}
+
+.link{
+    text-decoration: none;
+    color: inherit;
+    width: fit-content;
+}

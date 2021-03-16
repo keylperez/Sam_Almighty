@@ -1,0 +1,162 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+html {
+  box-sizing: border-box;
+  scroll-behavior: smooth; }
+
+body {
+  font-family: 'DotGothic16', sans-serif;
+  font-size: 1.5rem;
+  line-height: 1.6;
+  font-weight: 300;
+  background-color: violet; }
+
+footer {
+  position: relative;
+  bottom: 0; }
+
+.container {
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20% 20%; }
+
+.link {
+  text-decoration: none;
+  color: inherit;
+  width: fit-content; }
+
+body header {
+  grid-column: 1 / -1; }
+  body header ul {
+    position: fixed;
+    width: 100vw;
+    grid-template-columns: 10vw repeat(5, 18%) !important;
+    grid-column: 1 / -1;
+    height: 50px; }
+
+.footer {
+  height: 15vh;
+  grid-column: 1 / -1;
+  grid-template-rows: repeat(2, 50%);
+  padding: 20px; }
+
+.bodyHome {
+  background-image: url("/src/img/gaming_sam.jpg");
+  background-size: contain;
+  background-repeat: no-repeat; }
+
+.bodyGaming {
+  background-image: url("/src/img/gaming.gif");
+  background-size: contain;
+  background-repeat: no-repeat; }
+
+.bodyCry {
+  background-image: url("/src/img/crying.gif");
+  background-size: contain;
+  background-repeat: no-repeat; }
+
+.bodyAngry {
+  background-image: url("/src/img/angry.gif");
+  background-size: contain;
+  background-repeat: no-repeat; }
+
+.bodyBully {
+  background-image: url("/src/img/bully.gif");
+  background-size: contain;
+  background-repeat: no-repeat; }
+
+.bodyVatandoost {
+  background-color: #A85B3C; }
+
+.headerHome {
+  height: 100vh; }
+
+.headerGaming {
+  height: 170vh;
+  color: #001759; }
+
+.headerCry {
+  height: 195vh; }
+
+.headerAngry {
+  height: 96vh; }
+
+.headerBully {
+  height: 203vh; }
+
+.headerVatandoost {
+  height: 100vh;
+  color: #b2d5a0; }
+  .headerVatandoost video {
+    margin-top: 50px; }
+
+body header {
+  color: white; }
+  body header ul li {
+    font-size: 150%;
+    list-style-type: none;
+    display: inline; }
+
+body a, body a:hover, body a:focus, body a:active {
+  position: relative; }
+
+#homeLink {
+  margin: 10px; }
+
+.footer {
+  background-color: #1d2f15; }
+
+.navList {
+  justify-self: start;
+  align-self: center; }
+
+#homeImg {
+  width: 40px;
+  height: auto;
+  float: left; }
+
+footer {
+  justify-content: center;
+  font-size: 1rem;
+  color: #b2d5a0; }
+  footer .link {
+    border-radius: 50%; }
+
+.icon {
+  width: 30px;
+  height: 30px;
+  fill: #b2d5a0; }
+  .icon:hover {
+    transform: scale(1.2); }
+  .icon-facebook:hover {
+    fill: #1877f2; }
+  .icon-instagram:hover {
+    fill: #e4405f; }
+  .icon-twitter:hover {
+    fill: #1da1f2; }
+  .icon-discord:hover {
+    fill: #7289da; }
+  .icon-github:hover {
+    fill: #444444; }
+
+.socialMedia {
+  align-self: end;
+  grid-column: 1 / 3; }
+
+.fakeDiv-1 {
+  grid-column: 4 / 6; }
+
+.fakeDiv-2 {
+  grid-column: 1 / 3; }
+
+.samRemarks {
+  text-align: center;
+  align-self: end; }
+
+.copyRight {
+  align-self: center;
+  text-align: center; }
